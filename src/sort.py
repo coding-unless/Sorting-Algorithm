@@ -124,7 +124,8 @@ class SortApp(QMainWindow):
         central_widget = QWidget()
         central_widget.setLayout(main_layout)
         self.setCentralWidget(central_widget)
-
+        
+        # Add scroll feature *pending
         scroll = QScrollArea() # 
         scroll.setWidgetResizable(True) #
 
